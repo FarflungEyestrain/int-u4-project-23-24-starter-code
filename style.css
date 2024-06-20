@@ -39,10 +39,19 @@ footer{
     font-family: 'Consolas', sans-serif;
 }
 .questions h4 {
-    color: #666;
+    color: #ff0000;
     text-decoration: underline;
 }
-
+button {
+    cursor: pointer;
+    margin: auto;
+    flex-direction: row;
+    justify-content: center;
+}
+button:hover {
+    background-color: #707070;
+    color: rgb(255, 255, 255);
+}
 .questions img {
     width: 100%; /* Make images responsive */
     height: auto;
