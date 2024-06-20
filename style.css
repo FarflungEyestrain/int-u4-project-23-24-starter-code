@@ -1,4 +1,18 @@
 /* General body styling */
+html {
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+}
+img{
+    height: 50%;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-self: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+
+}
 body {
     font-family: 'Oswald', sans-serif;
     background-color: #f4f4f4;
@@ -21,9 +35,12 @@ body {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
+footer{
+    font-family: 'Consolas', sans-serif;
+}
 .questions h4 {
     color: #666;
+    text-decoration: underline;
 }
 
 .questions img {
